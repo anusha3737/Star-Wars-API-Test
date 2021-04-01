@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="StarwarsAPI" verbose="1" >
+  <test name="DisplayListOfChar" >
+    <classes>
+
+			<class name="dev.swapi.ListOfChar">
+			 <methods> 
+			 <include name="displayCharTest" /> 
+			 </methods>
+			  </class> 
+
+		</classes>
+  </test>
+  
+  <test name="SearchandDisplay" >
+    <classes>
+
+			<class name="dev.swapi.ListOfChar">
+			 <methods> 
+			 <include name="specifiedCharTest" /> 
+			 </methods>
+			  </class> 
+
+		</classes>
+  </test>
+  </suite>

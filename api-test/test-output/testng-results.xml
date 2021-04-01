@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-01T11:08:11 EDT" name="Default suite" finished-at="2021-04-01T11:14:45 EDT" duration-ms="394467">
+    <groups>
+    </groups>
+    <test started-at="2021-04-01T11:08:11 EDT" name="Default test" finished-at="2021-04-01T11:14:45 EDT" duration-ms="394467">
+      <class name="dev.swapi.ListOfChar">
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:dev.swapi.ListOfChar@34f7cfd9]" started-at="2021-04-01T11:08:11 EDT" name="openChrome" finished-at="2021-04-01T11:08:13 EDT" duration-ms="2356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+        <test-method signature="displayCharTest()[pri:0, instance:dev.swapi.ListOfChar@34f7cfd9]" started-at="2021-04-01T11:08:13 EDT" name="displayCharTest" finished-at="2021-04-01T11:14:10 EDT" duration-ms="356659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayCharTest -->
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:dev.swapi.ListOfChar@34f7cfd9]" started-at="2021-04-01T11:14:10 EDT" name="openChrome" finished-at="2021-04-01T11:14:11 EDT" duration-ms="1539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+        <test-method signature="specifiedCharTest()[pri:0, instance:dev.swapi.ListOfChar@34f7cfd9]" started-at="2021-04-01T11:14:11 EDT" name="specifiedCharTest" finished-at="2021-04-01T11:14:45 EDT" duration-ms="33863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- specifiedCharTest -->
+      </class> <!-- dev.swapi.ListOfChar -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [StarwarsAPI]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DisplayListOfChar(failed)">
+    <classes>
+      <class name="dev.swapi.ListOfChar">
+        <methods>
+          <include name="displayCharTest"/>
+          <include name="openChrome"/>
+        </methods>
+      </class> <!-- dev.swapi.ListOfChar -->
+    </classes>
+  </test> <!-- DisplayListOfChar(failed) -->
+</suite> <!-- Failed suite [StarwarsAPI] -->
